@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout · Ridgeline Outfitters</title>
+<script async src="https://human.signals.dev.verifyyou.com/hs.js?k=pk_live_Af0QZmkWH7fnUAoPlw6LsmpNwNQMrajE0JAvulgw6Nu"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a href="index.html">Ridgeline Outfitters</a><nav><a href="index.html">Shop</a><a href="product.html">Alpine Shell</a><a href="cart.html">Cart (1)</a></nav></header>
+<section class="wrap"><h1>Checkout</h1><p style="color:var(--muted)">Test page. Nothing is charged and nothing is stored.</p>
+<form onsubmit="event.preventDefault();document.getElementById('done').textContent='Order placed. Thanks.'">
+<label for="em">Email</label><input id="em" type="email" autocomplete="off">
+<div class="row"><div><label for="fn">First name</label><input id="fn" autocomplete="off"></div><div><label for="ln">Last name</label><input id="ln" autocomplete="off"></div></div>
+<label for="ad">Address</label><input id="ad" autocomplete="off">
+<div class="row"><div><label for="ci">City</label><input id="ci" autocomplete="off"></div><div><label for="zp">ZIP</label><input id="zp" autocomplete="off"></div></div>
+<label for="cc">Card number (use 4242 4242 4242 4242)</label><input id="cc" inputmode="numeric" autocomplete="off" placeholder="4242 4242 4242 4242">
+<div class="row"><div><label for="ex">Expiry</label><input id="ex" placeholder="12/28" autocomplete="off"></div><div><label for="cv">CVC</label><input id="cv" placeholder="123" autocomplete="off"></div></div>
+<p><button class="btn" type="submit">Place order · $289.00</button></p><p id="done"></p></form></section>
+<footer>Ridgeline Outfitters · a fictional shop for a Passive Signals test</footer></body></html>

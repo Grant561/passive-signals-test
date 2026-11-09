@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harbor Travel Cover</title>
+<script async src="https://human.signals.dev.verifyyou.com/hs.js?k=pk_live_Af0QZmkWH7fnUAoPlw6LsmpNwNQMrajE0JAvulgw6Nu"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a href="index.html">Harbor Travel Cover</a><nav><a href="index.html">Quote</a><a href="plans.html">Plans</a><a href="apply.html">Apply</a></nav></header>
+<section class="hero"><div><h1>Travel insurance in three steps.</h1><p>Tell us about the trip, pick a plan, cover the people going. Test site, nothing is bound.</p></div>
+<form class="panel" onsubmit="event.preventDefault();location.href='plans.html'">
+<div class="steps"><b>1 Trip</b><span>·</span><span>2 Plan</span><span>·</span><span>3 Travellers</span></div>
+<label for="dest">Destination</label><select id="dest"><option>Italy</option><option>Japan</option><option>Mexico</option><option>Canada</option></select>
+<div class="row"><div><label for="dep">Departure</label><input id="dep" type="date"></div><div><label for="ret">Return</label><input id="ret" type="date"></div></div>
+<div class="row"><div><label for="cost">Trip cost (USD)</label><input id="cost" inputmode="numeric" placeholder="4,200"></div><div><label for="trav">Travellers</label><select id="trav"><option>1</option><option>2</option><option>3</option><option>4</option></select></div></div>
+<label for="res">State of residence</label><select id="res"><option>Georgia</option><option>Pennsylvania</option><option>New Jersey</option><option>California</option></select>
+<button class="btn" type="submit">Get quotes</button></form></section>
+<footer>Harbor Travel Cover · a fictional insurer for a Passive Signals test</footer></body></html>
